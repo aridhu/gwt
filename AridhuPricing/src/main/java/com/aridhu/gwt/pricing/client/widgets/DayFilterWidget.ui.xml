@@ -1,0 +1,36 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+  xmlns:g='urn:import:com.google.gwt.user.client.ui' 
+  xmlns:dt='urn:import:com.aridhu.gwt.pricing.client.widgets'>
+  <ui:style>
+    .all {
+    	float: left;
+    }
+    
+    .cb {
+    	display: block;
+    }
+    
+    .none {
+    	margin-left: 5px;
+    }
+  </ui:style>
+  <g:FlowPanel>
+    <dt:DayCheckBox ui:field="hardware" caption="Hardware"
+      day="0" styleName="{style.cb}" />
+    <dt:DayCheckBox ui:field="software" caption="Software"
+      day="1" styleName="{style.cb}" />
+    <dt:DayCheckBox ui:field="networking" caption="Networking"
+      day="2" styleName="{style.cb}" />
+    <dt:DayCheckBox ui:field="cloud" caption="Cloud"
+      day="3" styleName="{style.cb}" />
+    <dt:DayCheckBox ui:field="mobile" caption="Mobile"
+      day="4" styleName="{style.cb}" />
+    <dt:DayCheckBox ui:field="bigdata" caption="BigData"
+      day="5" styleName="{style.cb}" />
+    <dt:DayCheckBox ui:field="enterprise" caption="Enterprise"
+      day="6" styleName="{style.cb}" />
+
+    <g:Button ui:field="all" styleName="{style.all}">All</g:Button>
+    <g:Button ui:field="none" styleName="{style.none}">None</g:Button>
+  </g:FlowPanel>
+</ui:UiBinder>
