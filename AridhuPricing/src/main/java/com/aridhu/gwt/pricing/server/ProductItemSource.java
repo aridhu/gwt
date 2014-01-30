@@ -27,8 +27,8 @@ import java.util.Map;
 
 import com.aridhu.gwt.pricing.domain.ProductItem;
 import com.aridhu.gwt.pricing.domain.Category;
-import com.aridhu.gwt.pricing.server.mongo.MongoConnection;
-import com.aridhu.gwt.pricing.server.mongo.MongoManageItems;
+import com.aridhu.gwt.pricing.server.mongo.dao.MongoManageItems;
+import com.aridhu.gwt.pricing.server.mongo.util.MongoConnection;
 
 /**
  * Provides a number of Person objects as a demonstration datasource. Many of

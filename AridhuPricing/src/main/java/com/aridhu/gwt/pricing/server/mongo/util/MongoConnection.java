@@ -1,4 +1,4 @@
-package com.aridhu.gwt.pricing.server.mongo;
+package com.aridhu.gwt.pricing.server.mongo.util;
 
 import java.net.UnknownHostException;
 import java.util.Set;

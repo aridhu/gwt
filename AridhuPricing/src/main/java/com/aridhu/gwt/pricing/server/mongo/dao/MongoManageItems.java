@@ -1,4 +1,4 @@
-package com.aridhu.gwt.pricing.server.mongo;
+package com.aridhu.gwt.pricing.server.mongo.dao;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -13,6 +13,7 @@ import java.util.TreeSet;
 import com.aridhu.gwt.pricing.domain.Category;
 import com.aridhu.gwt.pricing.domain.ProductItem;
 import com.aridhu.gwt.pricing.domain.Attribute;
+import com.aridhu.gwt.pricing.server.mongo.util.MongoConnection;
 import com.mongodb.DB;
 import com.mongodb.DBCollection;
 import com.mongodb.DBCursor;
